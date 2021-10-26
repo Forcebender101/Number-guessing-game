@@ -2,7 +2,7 @@ import random
 isRight = 0
 playerPick = 0
 firstLoop = 1
-print ("Hello welcome to my number guessing game.\n You will guess first then I will guess and we'll see who guessed in less trys")
+print ("Hello welcome to my number guessing game.\nYou'll guess first then I'll guess.\nWe'll see who guessed in fewer tries.")
 while isRight == 0:
   if firstLoop == 1:
     computerNumber = random.randint(1,10)
